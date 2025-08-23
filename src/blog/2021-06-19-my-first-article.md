@@ -1,14 +1,32 @@
 ---
-title: title
-author: name
-image: /assets/blog/article-1.jpg
-imageAlt: This is a test
-description: discription
+title: 複数画像対応テスト記事
+author: テストユーザー
+description: Markdownで複数の画像を自由な位置に挿入できる記事のサンプルです
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Ornare aenean euismod elementum nisi quis eleifend. Amet tellus cras adipiscing enim eu turpis. Nisi vitae suscipit tellus mauris. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Mi eget mauris pharetra et. Et tortor at risus viverra. Id eu nisl nunc mi ipsum faucibus vitae. Malesuada nunc vel risus commodo viverra maecenas. Et netus et malesuada fames ac turpis egestas sed. Massa vitae tortor condimentum lacinia quis. Eu augue ut lectus arcu bibendum at varius. Enim nec dui nunc mattis enim ut tellus elementum sagittis. In fermentum et sollicitudin ac orci. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Id porta nibh venenatis cras sed felis eget velit. In hac habitasse platea dictumst.
+この記事では、Markdownの標準記法を使って記事内の任意の位置に画像を配置できます。
 
-Amet est placerat in egestas erat imperdiet sed euismod. Elementum pulvinar etiam non quam. Pharetra convallis posuere morbi leo urna molestie. Varius duis at consectetur lorem donec massa. Id semper risus in hendrerit gravida rutrum quisque. Adipiscing elit pellentesque habitant morbi tristique senectus. Tortor pretium viverra suspendisse potenti. Aenean et tortor at risus viverra adipiscing at in. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Eu augue ut lectus arcu bibendum at varius vel pharetra. Facilisis magna etiam tempor orci eu. Habitant morbi tristique senectus et. Eu facilisis sed odio morbi quis commodo. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Nulla posuere sollicitudin aliquam ultrices sagittis. At imperdiet dui accumsan sit amet nulla. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Tortor id aliquet lectus proin nibh. Tellus at urna condimentum mattis.
+## 最初の画像
+
+![記事画像1](/assets/blog/article-1.jpg)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean.
+
+## テキストの間に画像
+
+テキストが続きます。Ornare aenean euismod elementum nisi quis eleifend. Amet tellus cras adipiscing enim eu turpis. Nisi vitae suscipit tellus mauris.
+
+![記事画像2](/assets/blog/article-1.jpg)
+
+Mauris in aliquam sem fringilla ut morbi tincidunt augue. Mi eget mauris pharetra et. Et tortor at risus viverra. Id eu nisl nunc mi ipsum faucibus vitae.
+
+## 複数の画像を連続配置
+
+![画像A](/assets/blog/article-1.jpg)
+
+![画像B](/assets/blog/article-1.jpg)
+
+Amet est placerat in egestas erat imperdiet sed euismod. Elementum pulvinar etiam non quam. Pharetra convallis posuere morbi leo urna molestie.
 
 Urna id volutpat lacus laoreet non curabitur gravida arcu ac. Accumsan tortor posuere ac ut consequat. Suspendisse sed nisi lacus sed viverra tellus. Amet nulla facilisi morbi tempus. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Maecenas accumsan lacus vel facilisis volutpat. Fringilla phasellus faucibus scelerisque eleifend. Enim neque volutpat ac tincidunt vitae semper quis. Id eu nisl nunc mi ipsum. Ligula ullamcorper malesuada proin libero nunc. Bibendum at varius vel pharetra vel turpis nunc eget.
 
