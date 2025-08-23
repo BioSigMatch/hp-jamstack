@@ -123,6 +123,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-400);
   color: var(--clr-neutral-900);
+  padding-top: 100px; /* 固定ヘッダーの高さ分のパディング */
 }
 
 h1,
@@ -197,12 +198,27 @@ section,
   /////////////////////// */
 
 .page-header {
-  padding: 2em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: linear-gradient(135deg, rgba(0, 94, 168, 0.1) 0%, rgba(12, 173, 103, 0.1) 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .page-header__content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -213,12 +229,35 @@ section,
 .nav-list a {
   color: var(--clr-neutral-900);
   text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: var(--fw-700);
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 .nav-list a:focus,
 .nav-list a:hover {
   color: var(--clr-primary-400);
-  text-decoration: underline;
+  background: var(--clr-primary-200);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-list a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--clr-primary-400);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-list a:hover::after {
+  width: 80%;
 }
 
 /* //////////////////////
