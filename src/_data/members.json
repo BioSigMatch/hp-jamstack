@@ -1,0 +1,28 @@
+[
+  {
+    "name": "田中 太郎",
+    "position": "CEO / 代表取締役",
+    "bio": "脳波技術の専門家として15年の経験を持つ。複数のスタートアップで成功を収め、BioSigMatchを設立。",
+    "image": "https://via.placeholder.com/400x400/005EA8/FFFFFF?text=田中+太郎",
+    "linkedin": "https://linkedin.com/in/tanaka-taro",
+    "twitter": "https://twitter.com/tanaka_taro",
+    "email": "tanaka@biosigmatch.com"
+  },
+  {
+    "name": "佐藤 花子",
+    "position": "CTO / 技術責任者",
+    "bio": "機械学習と脳波解析の専門家。大手IT企業で10年の開発経験を経て、BioSigMatchの技術戦略を統括。",
+    "image": "https://via.placeholder.com/400x400/0CAD67/FFFFFF?text=佐藤+花子",
+    "linkedin": "https://linkedin.com/in/sato-hanako",
+    "github": "https://github.com/sato-hanako",
+    "email": "sato@biosigmatch.com"
+  },
+  {
+    "name": "鈴木 次郎",
+    "position": "営業責任者",
+    "bio": "B2Bセールスのエキスパート。大手企業とのパートナーシップ構築に従事し、事業拡大を推進。",
+    "image": "https://via.placeholder.com/400x400/004A86/FFFFFF?text=鈴木+次郎",
+    "linkedin": "https://linkedin.com/in/suzuki-jiro",
+    "email": "suzuki@biosigmatch.com"
+  }
+]
