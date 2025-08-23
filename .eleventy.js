@@ -7,8 +7,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets"); // assets（画像など）をパススルーコピー
     eleventyConfig.addPassthroughCopy("./src/admin"); // Decap CMSの管理画面をパススルーコピー
 
-    // データファイルの読み込み
-    eleventyConfig.addGlobalData("members", require("./src/_data/members.json"));
 
     // Eleventyの設定ファイルに、"postDate" という名前の新しいフィルターを追加する（参照:eleventy rocks）
     eleventyConfig.addFilter("postDate", (dateObj) => {

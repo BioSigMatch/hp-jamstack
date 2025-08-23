@@ -1,28 +1,65 @@
 [
   {
-    "name": "田中 太郎",
-    "position": "CEO / 代表取締役",
-    "bio": "脳波技術の専門家として15年の経験を持つ。複数のスタートアップで成功を収め、BioSigMatchを設立。",
-    "image": "https://via.placeholder.com/400x400/005EA8/FFFFFF?text=田中+太郎",
-    "linkedin": "https://linkedin.com/in/tanaka-taro",
-    "twitter": "https://twitter.com/tanaka_taro",
-    "email": "tanaka@biosigmatch.com"
+    "name": "村上 翔哉",
+    "position": "代表 / 工学府知能情報システム工学専攻 M2",
+    "bio": "BioSigMatchプロジェクトの代表として、プロジェクト全体の統括を行っています。",
+    "image": "/assets/members/murakami.jpg",
+    "twitter": "https://x.com/ShoyaMurak59563",
+    "email": "murashoya@gmail.com"
   },
   {
-    "name": "佐藤 花子",
-    "position": "CTO / 技術責任者",
-    "bio": "機械学習と脳波解析の専門家。大手IT企業で10年の開発経験を経て、BioSigMatchの技術戦略を統括。",
-    "image": "https://via.placeholder.com/400x400/0CAD67/FFFFFF?text=佐藤+花子",
-    "linkedin": "https://linkedin.com/in/sato-hanako",
-    "github": "https://github.com/sato-hanako",
-    "email": "sato@biosigmatch.com"
+    "name": "大森 俊弥",
+    "position": "代表 / 工学部知能情報システム工学科 B3",
+    "bio": "BioSigMatchプロジェクトの代表として、プロジェクト全体の統括を行っています。",
+    "image": "/assets/members/dummy.png",
+    "email": "contact@biosigmatch.com"
   },
   {
-    "name": "鈴木 次郎",
-    "position": "営業責任者",
-    "bio": "B2Bセールスのエキスパート。大手企業とのパートナーシップ構築に従事し、事業拡大を推進。",
-    "image": "https://via.placeholder.com/400x400/004A86/FFFFFF?text=鈴木+次郎",
-    "linkedin": "https://linkedin.com/in/suzuki-jiro",
-    "email": "suzuki@biosigmatch.com"
+    "name": "井上 歩紀",
+    "position": "PM / 工学府知能情報システム工学専攻 M2",
+    "bio": "プロジェクトマネージャーとして、開発プロセスの管理と進捗調整を担当しています。",
+    "image": "/assets/members/dummy.png"
+  },
+  {
+    "name": "野田 基",
+    "position": "回路設計 / 工学府産業技術専攻 M2",
+    "bio": "脳波計の回路設計を専門とし、高精度な信号処理回路の開発に従事しています。",
+    "image": "/assets/members/dummy.png"
+  },
+  {
+    "name": "蛭田 依吹",
+    "position": "筐体設計 / 工学府知能情報システム工学専攻 M2",
+    "bio": "脳波計の筐体設計を担当し、使いやすさとデザイン性を両立した製品開発を行っています。",
+    "image": "/assets/members/dummy.png"
+  },
+  {
+    "name": "清水 拓仁",
+    "position": "マーケティング / 工学府知能情報システム工学専攻 M1",
+    "bio": "プロジェクトのマーケティング戦略を担当し、製品の市場展開とブランディングを行っています。",
+    "image": "/assets/members/dummy.png"
+  },
+  {
+    "name": "山口 智也",
+    "position": "脳波計電極 / 工学府産業技術専攻 M2",
+    "bio": "脳波計の電極設計を専門とし、高品質な信号取得のための電極技術開発に従事しています。",
+    "image": "/assets/members/dummy.png"
+  },
+  {
+    "name": "渡部 凌",
+    "position": "回路実装 / 工学府知能情報システム工学専攻 M2",
+    "bio": "設計された回路の実装を担当し、実際のハードウェアとして動作する回路の製作を行っています。",
+    "image": "/assets/members/dummy.png"
+  },
+  {
+    "name": "畠山 遼心",
+    "position": "ハード実装 / 工学部知能情報システム工学科 B3",
+    "bio": "ハードウェアの実装を担当し、回路と筐体の統合と実際の製品化に従事しています。",
+    "image": "/assets/members/dummy.png"
+  },
+  {
+    "name": "西岡 英光",
+    "position": "ハード実装 / 工学部知能情報システム工学科 B4",
+    "bio": "ハードウェアの実装を担当し、製品の品質管理と最終的な実装作業を行っています。",
+    "image": "/assets/members/dummy.png"
   }
 ]
