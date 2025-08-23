@@ -1,0 +1,16 @@
+{# 各記事のリスト項目（<li>）を生成 #}
+<li>
+    {# 記事のプレビュー部分を<article>タグで囲む #}
+    <article class="snippet">
+        {# post変数から画像パス（image）を取得し、imgタグのソースに設定 #}
+        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="snippet__image">
+        {# post変数からタイトル（title）とURL（url）を取得し、記事へのリンク付き見出しを生成 #}
+        <h3 class="snippet__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        {# post変数から著者（author）を取得して表示 #}
+        <p class="snippet__meta">by <span>{{ post.data.author }}</span></p> on <span>{{ post.date | postDate }}</span>
+        {# post変数から記事の概要（description）を取得して表示 #}
+        <p class="snippet__body">{{ post.data.description }}</p>
+        {# 記事の続きを読むためのリンクを生成 #}
+        <a href="{{ post.url }}" class="btn btn--primary">Continue Reading</a>
+    </article>
+</li>

@@ -1,0 +1,22 @@
+---
+title: Blog # このページのタイトルを設定
+layout: "base.njk" # サイトの共通レイアウトとして "base.njk" ファイルを使用する
+---
+
+{# ↓ここから下が、base.njkの {{ content | safe }} に入る部分 #}
+
+<div class="section container">
+<h1 class="section-title">Recent articles</h1>
+
+<ul role="list" class="articles__list flow">
+
+  {# collections.allにはすべてのコレクションが格納されている #}
+  {# collections.postには "post" タグが付いた全ページの情報が格納されている #}
+  {# | reverse フィルターで、配列を逆順（新しい記事が先頭）にする #}
+  {%- for post in collections.post | reverse -%}
+      {% include "article-snippet.njk" %}
+  {%- endfor -%} {# forループの終了 #}
+
+</ul>
+
+</div>

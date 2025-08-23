@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {# 各ページのデータ（例: front matter）から「title」変数を取得し、ページのタイトルとして表示 #}
+    <title>{{ title }}</title>
+    
+    {# サイト全体のスタイルを定義したCSSファイルを読み込む #}
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+    {# 共通パーツであるヘッダー（header.njk）をこの場所に読み込んで表示 #}
+    {% include 'header.njk' %}
+    
+    {# サイトの主要なコンテンツ（本文）が入るメインの領域 #}
+    <main>
+        {# 個別ページ（index.mdなど）の中身である「content」変数を、HTMLとして解釈してここに展開 #}
+        {{ content | safe }}
+    </main>
+    
+    {# 共通パーツであるフッター（footer.njk）をこの場所に読み込んで表示 #}
+    {% include 'footer.njk' %}
+
+    <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
+        });
+    }
+    </script>
+</body>
+</html>
