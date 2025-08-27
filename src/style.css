@@ -526,10 +526,95 @@ section,
   font-size: var(--fs-400);
 }
 
+/* About Us page */
+.about-us {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, rgba(0, 94, 168, 0.05) 0%, rgba(12, 173, 103, 0.05) 100%);
+}
+
+.about-us__content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us__text h3 {
+  color: var(--clr-primary-400);
+  font-size: var(--fs-500);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.about-us__text h3:first-child {
+  margin-top: 0;
+}
+
+.about-us__text p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--clr-neutral-900);
+}
+
+.services-grid {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.service-card {
+  background: var(--clr-neutral-100);
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 2px solid var(--clr-primary-200);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h4 {
+  color: var(--clr-primary-400);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-700);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-card p {
+  text-align: center;
+  line-height: 1.6;
+  color: var(--clr-neutral-900);
+}
+
+.cta-section {
+  background: var(--clr-primary-200);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+  border: 2px solid var(--clr-primary-300);
+}
+
+.cta-section h3 {
+  color: var(--clr-primary-400);
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  margin-bottom: 1.5rem;
+  color: var(--clr-neutral-900);
+}
+
 /* Responsive design */
 @media (min-width: 45em) {
   .members__grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
