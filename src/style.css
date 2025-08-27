@@ -266,14 +266,53 @@ section,
 
 .site-footer {
   --logo-color: currentColor;
-  padding: 1em 0;
+  padding: 0.5em 0;
   color: var(--clr-neutral-900);
   background: linear-gradient(135deg, rgba(0, 94, 168, 0.15) 0%, rgba(12, 173, 103, 0.15) 100%);
-  text-align: center;
+  border-top: 1px solid var(--clr-primary-200);
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-top: 1px solid var(--clr-primary-200);
+  gap: 1rem;
+}
+
+.footer__nav-list {
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__nav-list a {
+  color: var(--clr-neutral-900);
+  text-decoration: none;
+  font-weight: var(--fw-700);
+  transition: color 0.3s ease;
+}
+
+.footer__nav-list a:hover {
+  color: var(--clr-primary-400);
+}
+
+.footer__copy {
+  padding: 0.5em 0;
+  text-align: center;
 }
 
 /* //////////////////////
